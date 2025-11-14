@@ -5,16 +5,13 @@ function App() {
   return (
     <div 
       style={{
-        borderTop: '2px dotted #ff0000',
-        borderRight: '4px double #00ff00',
-        borderBottom: '6px groove #0000ff',
-        borderLeft: '8px ridge #ffff00'
+      borderTop: '5px double #ff0000',
+      borderRight: '5px double #00ff00', 
+      borderBottom: '5px double #0000ff',
+      borderLeft: '5px double #ffff00'
       }}
     >
-    
       <TupaText></TupaText>
-         
-    
     </div>
   )
 }

@@ -1,5 +1,5 @@
 function TupaText() {
-  return <div> я написал слово</div>;
+  return <div> я загадал слово</div>;
 }
 
 export default TupaText;
