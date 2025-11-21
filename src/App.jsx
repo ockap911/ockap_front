@@ -1,5 +1,7 @@
-import TupaText from './Testovie.jsx'
-import './App.css'
+import {TupaText, Button, Gridfdfdf} from './Testovie.jsx'
+import Knopka from './Button.jsx'
+ import './App.css'
+
 function App() {
 
   return (
@@ -12,7 +14,21 @@ function App() {
       }}
     >
       <TupaText></TupaText>
+      <Knopka></Knopka>
+
+      <Button buttonText="Свой текст"></Button>
+
+      <Gridfdfdf>
+        <div>lorem123</div>
+        <div>lorem456</div>
+      </Gridfdfdf>
+       <Gridfdfdf>
+        <div>lorem789</div>
+        <div>lorem000</div>
+      </Gridfdfdf>
     </div>
+  
+    
   )
 }
 export default App
