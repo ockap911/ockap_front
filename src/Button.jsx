@@ -10,11 +10,18 @@ function Knopka(){
     setRolov(count-1)
   }
 
+  const timeValue = new Date();
+  const formattedTime = timeValue.getHours() + ' : ' + timeValue.getMinutes() + ' : ' + timeValue.getSeconds();
+
     return(
     <div>
       <div onClick={plus} >+Цифорка</div>
       <Statistic value={count} />
       <Button onClick={minus} >-Цифорка</Button>
+
+      <div>{formattedTime}</div>
+      <div>{formattedTime}</div>
+      <div>{formattedTime}</div>
     </div>
   );
 };
