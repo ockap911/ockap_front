@@ -1,5 +1,5 @@
-export function TupaText() {
-  return <div> я загадал слово</div>;
+export function TupaText({children}) {
+  return <div> я загадал слово{children}</div>;
 }
 
 

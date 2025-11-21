@@ -1,5 +1,7 @@
 import {TupaText, Button, Gridfdfdf} from './Testovie.jsx'
 import Knopka from './Button.jsx'
+import Resheto from'./Resh.jsx'
+import Counter from './Counter.jsx'
  import './App.css'
 
 function App() {
@@ -7,25 +9,14 @@ function App() {
   return (
     <div 
       style={{
-      borderTop: '5px double #ff0000',
-      borderRight: '5px double #00ff00', 
-      borderBottom: '5px double #0000ff',
-      borderLeft: '5px double #ffff00'
+      borderTop: '20px double #ff0000',
+      borderRight: '20px double #00ff00', 
+      borderBottom: '20px double #0000ff',
+      borderLeft: '20px double #ffff00'
       }}
     >
-      <TupaText></TupaText>
       <Knopka></Knopka>
 
-      <Button buttonText="Свой текст"></Button>
-
-      <Gridfdfdf>
-        <div>lorem123</div>
-        <div>lorem456</div>
-      </Gridfdfdf>
-       <Gridfdfdf>
-        <div>lorem789</div>
-        <div>lorem000</div>
-      </Gridfdfdf>
     </div>
   
     
