@@ -10,8 +10,11 @@ function Knopka(){
     setRolov(count-1)
   }
 
-  const timeValue = new Date();
-  const formattedTime = timeValue.getHours() + ' : ' + timeValue.getMinutes() + ' : ' + timeValue.getSeconds();
+  function Vrema() {
+    const timeValue = new Date();
+
+    return timeValue.getHours() + ' : ' + timeValue.getMinutes() + ' : ' + timeValue.getSeconds(); 
+  }
 
     return(
     <div>
@@ -20,9 +23,13 @@ function Knopka(){
       <Button onClick={minus} >-Цифорка</Button>
 
       <div>{formattedTime}</div>
-      <div>{formattedTime}</div>
-      <div>{formattedTime}</div>
+
     </div>
   );
 };
 export default Knopka;
+
+
+<div>{Rolov.map((item, index) => {
+        return <div key={index}>{item}</div>
+      })}</div>

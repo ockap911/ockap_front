@@ -1,8 +1,9 @@
 import {TupaText, Button, Gridfdfdf} from './Testovie.jsx'
-import Knopka from './Button.jsx'
+//import Knopka from './Button.jsx'
+//import Vrema from './Button.jsx'
 import Resheto from'./Resh.jsx'
-import Counter from './Counter.jsx'
- import './App.css'
+import Vrema from './Schitaem vrema.jsx'
+import './App.css'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       borderLeft: '20px double #ffff00'
       }}
     >
-      <Knopka></Knopka>
+      <Vrema></Vrema>
+      
 
     </div>
   
